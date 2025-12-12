@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.3",
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    }
+]

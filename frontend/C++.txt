@@ -1,0 +1,80 @@
+/*
+ * Py-Arduino Script Master Firmware V2.0 (完整版)
+ * 功能：接收 Python 指令，模擬滑鼠移動、點擊、鍵盤按壓
+ */
+
+#include <Mouse.h>
+#include <Keyboard.h>
+
+void setup() {
+  // 1. 設定傳輸速率 (必須與 Python 端 115200 一致)
+  Serial.begin(115200);
+  
+  // 2. 啟動滑鼠與鍵盤模擬功能
+  Mouse.begin();
+  Keyboard.begin();
+  
+  // 3. (選用) 點亮板子上的 LED 燈，表示開機成功
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, HIGH); 
+}
+
+void loop() {
+  // 檢查電腦有沒有傳指令過來
+  if (Serial.available() > 0) {
+    
+    // 讀取第一個英文字母 (指令代號)
+    char cmd = Serial.read();
+
+    // ------------------------------------------
+    // M: 滑鼠移動 (Move) -> M,x,y
+    // ------------------------------------------
+    if (cmd == 'M') {
+      int x = Serial.parseInt(); // 自動讀取下一個數字
+      int y = Serial.parseInt();
+      Mouse.move(x, y, 0); 
+    }
+    
+    // ------------------------------------------
+    // C: 滑鼠左鍵點擊 (Click) -> C
+    // ------------------------------------------
+    else if (cmd == 'C') {
+      Mouse.click(MOUSE_LEFT);
+    }
+    
+    // ------------------------------------------
+    // K: 單次按鍵 (Press & Release) -> K,code
+    // ------------------------------------------
+    else if (cmd == 'K') {
+      int keyCode = Serial.parseInt();
+      Keyboard.press(keyCode);
+      delay(10); 
+      Keyboard.release(keyCode);
+    }
+
+    // ------------------------------------------
+    // D: 按下不放 (Key Down) -> D,code
+    // (用於複合鍵，例如 Ctrl+C)
+    // ------------------------------------------
+    else if (cmd == 'D') {
+      int keyCode = Serial.parseInt();
+      Keyboard.press(keyCode);
+    }
+    
+    // ------------------------------------------
+    // U: 放開按鍵 (Key Up) -> U,code
+    // ------------------------------------------
+    else if (cmd == 'U') {
+      int keyCode = Serial.parseInt();
+      Keyboard.release(keyCode);
+    }
+    
+    // ------------------------------------------
+    // A: 放開所有按鍵 (Release All) -> A
+    // (安全機制，怕按鍵卡住)
+    // ------------------------------------------
+    else if (cmd == 'A') {
+      Keyboard.releaseAll();
+    }
+  }
+}

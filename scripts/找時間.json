@@ -1,0 +1,412 @@
+[
+    {
+        "type": "Wait",
+        "val": 300.0,
+        "text": "\u23f3 \u7b49\u5f85 300.0 \u79d2"
+    },
+    {
+        "type": "Label",
+        "val": "1",
+        "text": "\ud83c\udff7\ufe0f \u6a19\u7c64: 1"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u8996\u7a97\u62ac\u982d.png|ClickTarget||Stop||0.15000000000000008",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u9078\u55ae.png|ClickTarget||Goto|1|0.65",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\BOSS.png|ClickTarget||Goto|1|0.8",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.3,
+        "text": "\u23f3 \u7b49\u5f85 1.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\BOSS .png|Goto|2|Continue||0.8",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Loop",
+        "val": "1|5|Stop|",
+        "text": "\ud83d\udd01 \u5faa\u74b0\u81f3 '1' (\u9650 5 \u6b21) \u5931\u6557\u5247 Stop"
+    },
+    {
+        "type": "Label",
+        "val": "2",
+        "text": "\ud83c\udff7\ufe0f \u6a19\u7c64: 2"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\^.png|ClickTarget||Stop||0.8|1551,1038,247,41",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u8a08\u6642\u5668.png|ClickTarget||Stop||0.8|1449,781,403,262",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u9023\u7e8c\u64f7\u53d6.png|ClickTarget||Stop||0.8|894,64,285,300",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\boss\u6eff.png|ClickOffset|212,67|Goto|\u958b\u6293|0.8",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u9023\u7e8c\u64f7\u53d6.png|ClickOffset|848,3|Stop||0.8|901,38,299,366",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Goto",
+        "val": "3",
+        "text": "\u2934\ufe0f \u8df3\u8f49\u81f3: 3"
+    },
+    {
+        "type": "Label",
+        "val": "\u958b\u6293",
+        "text": "\ud83c\udff7\ufe0f \u6a19\u7c64: \u958b\u6293"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u6293\u5716\u7a7a\u767d.png|Continue||Stop||0.8|1442,3,477,310",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.8,
+        "text": "\u23f3 \u7b49\u5f85 0.8 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\BOSS .png|Continue||Stop||0.8|55,30,209,64",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": "1.38",
+        "text": "\u23f3 \u7b49\u5f85 1.38 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "204,228",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 204,228"
+    },
+    {
+        "type": "Wait",
+        "val": "2.07",
+        "text": "\u23f3 \u7b49\u5f85 2.07 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "211,395",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 211,395"
+    },
+    {
+        "type": "Wait",
+        "val": "1.68",
+        "text": "\u23f3 \u7b49\u5f85 1.68 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "194,547",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 194,547"
+    },
+    {
+        "type": "Wait",
+        "val": "1.67",
+        "text": "\u23f3 \u7b49\u5f85 1.67 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "225,704",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 225,704"
+    },
+    {
+        "type": "Wait",
+        "val": "1.57",
+        "text": "\u23f3 \u7b49\u5f85 1.57 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "224,862",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 224,862"
+    },
+    {
+        "type": "Wait",
+        "val": "1.5",
+        "text": "\u23f3 \u7b49\u5f85 1.5 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "219,956",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 219,956"
+    },
+    {
+        "type": "Wait",
+        "val": "1.8",
+        "text": "\u23f3 \u7b49\u5f85 1.8 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "221,971",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 221,971"
+    },
+    {
+        "type": "Wait",
+        "val": "1.52",
+        "text": "\u23f3 \u7b49\u5f85 1.52 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "236,983",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 236,983"
+    },
+    {
+        "type": "Wait",
+        "val": "1.39",
+        "text": "\u23f3 \u7b49\u5f85 1.39 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "217,965",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 217,965"
+    },
+    {
+        "type": "Wait",
+        "val": "1.4",
+        "text": "\u23f3 \u7b49\u5f85 1.4 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "228,975",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 228,975"
+    },
+    {
+        "type": "Wait",
+        "val": "1.47",
+        "text": "\u23f3 \u7b49\u5f85 1.47 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "222,980",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 222,980"
+    },
+    {
+        "type": "Wait",
+        "val": "1.56",
+        "text": "\u23f3 \u7b49\u5f85 1.56 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "216,969",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 216,969"
+    },
+    {
+        "type": "Wait",
+        "val": "1.55",
+        "text": "\u23f3 \u7b49\u5f85 1.55 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "210,968",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 210,968"
+    },
+    {
+        "type": "Wait",
+        "val": "1.42",
+        "text": "\u23f3 \u7b49\u5f85 1.42 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "212,968",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 212,968"
+    },
+    {
+        "type": "Wait",
+        "val": "1.66",
+        "text": "\u23f3 \u7b49\u5f85 1.66 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "208,969",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 208,969"
+    },
+    {
+        "type": "Wait",
+        "val": "1.59",
+        "text": "\u23f3 \u7b49\u5f85 1.59 \u79d2"
+    },
+    {
+        "type": "Click",
+        "val": "212,962",
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 212,962"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u9023\u7e8c\u64f7\u53d6.png|ClickOffset|848,3|Stop||0.8|901,38,299,366",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Label",
+        "val": "\u7d50\u675f",
+        "text": "\ud83c\udff7\ufe0f \u6a19\u7c64: \u7d50\u675f"
+    },
+    {
+        "type": "Label",
+        "val": "3",
+        "text": "\ud83c\udff7\ufe0f \u6a19\u7c64: 3"
+    }
+]

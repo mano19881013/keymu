@@ -1,0 +1,112 @@
+[
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u8996\u7a97\u62ac\u982d.png|ClickTarget||Stop||0.15000000000000008",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": "0.5",
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u9078\u55ae.png|ClickTarget||Stop||0.6499999999999999|1837,34,53,43",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\BOSS.png|ClickTarget||Stop||0.8|1624,249,80,71",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\^.png|ClickTarget||Stop||0.8|1551,1038,247,41",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u8a08\u6642\u5668.png|ClickTarget||Stop||0.8|1449,781,403,262",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u9023\u7e8c\u64f7\u53d6.png|ClickTarget||Stop||0.8|894,64,285,300",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\boss\u6eff.png|ClickOffset|240,3|Goto|\u958b\u6293|0.8|822,500,84,72",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 0.3,
+        "text": "\u23f3 \u7b49\u5f85 0.3 \u79d2"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u9023\u7e8c\u64f7\u53d6.png|ClickOffset|848,3|Stop||0.8|901,38,299,366",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    }
+]

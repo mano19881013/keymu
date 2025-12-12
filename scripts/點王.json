@@ -1,0 +1,162 @@
+[
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.38 \u79d2",
+        "type": "Wait",
+        "val": "1.38"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 204,228",
+        "type": "Click",
+        "val": "204,228"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 2.07 \u79d2",
+        "type": "Wait",
+        "val": "2.07"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 211,395",
+        "type": "Click",
+        "val": "211,395"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.68 \u79d2",
+        "type": "Wait",
+        "val": "1.68"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 194,547",
+        "type": "Click",
+        "val": "194,547"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.67 \u79d2",
+        "type": "Wait",
+        "val": "1.67"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 225,704",
+        "type": "Click",
+        "val": "225,704"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.57 \u79d2",
+        "type": "Wait",
+        "val": "1.57"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 224,862",
+        "type": "Click",
+        "val": "224,862"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.5 \u79d2",
+        "type": "Wait",
+        "val": "1.5"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 219,956",
+        "type": "Click",
+        "val": "219,956"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.8 \u79d2",
+        "type": "Wait",
+        "val": "1.8"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 221,971",
+        "type": "Click",
+        "val": "221,971"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.52 \u79d2",
+        "type": "Wait",
+        "val": "1.52"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 236,983",
+        "type": "Click",
+        "val": "236,983"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.39 \u79d2",
+        "type": "Wait",
+        "val": "1.39"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 217,965",
+        "type": "Click",
+        "val": "217,965"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.4 \u79d2",
+        "type": "Wait",
+        "val": "1.4"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 228,975",
+        "type": "Click",
+        "val": "228,975"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.47 \u79d2",
+        "type": "Wait",
+        "val": "1.47"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 222,980",
+        "type": "Click",
+        "val": "222,980"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.56 \u79d2",
+        "type": "Wait",
+        "val": "1.56"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 216,969",
+        "type": "Click",
+        "val": "216,969"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.55 \u79d2",
+        "type": "Wait",
+        "val": "1.55"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 210,968",
+        "type": "Click",
+        "val": "210,968"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.42 \u79d2",
+        "type": "Wait",
+        "val": "1.42"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 212,968",
+        "type": "Click",
+        "val": "212,968"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.66 \u79d2",
+        "type": "Wait",
+        "val": "1.66"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 208,969",
+        "type": "Click",
+        "val": "208,969"
+    },
+    {
+        "text": "\u23f3 \u7b49\u5f85 1.59 \u79d2",
+        "type": "Wait",
+        "val": "1.59"
+    },
+    {
+        "text": "\ud83d\uddb1\ufe0f \u9ede\u64ca\u5ea7\u6a19 212,962",
+        "type": "Click",
+        "val": "212,962"
+    }
+]

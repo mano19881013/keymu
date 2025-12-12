@@ -1,0 +1,97 @@
+[
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u5fa9\u6d3b.png|ClickTarget||Goto|3|0.8",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 30.0,
+        "text": "\u23f3 \u7b49\u5f85 30.0 \u79d2"
+    },
+    {
+        "type": "Label",
+        "val": "star",
+        "text": "\ud83c\udff7\ufe0f \u6a19\u7c64: star"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u50b3\u5377.png|ClickTarget||Goto|esc|0.8",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "SmartAction",
+        "val": "OCR|\u7df4\u529f108|ClickOffset|315,0|Goto|2|0.8",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "SmartAction",
+        "val": "FindImg|assets\\\u78ba\u8a8d.png|ClickTarget||Goto|2|0.8",
+        "text": "\ud83e\udde0 \u667a\u6167\u52d5\u4f5c (\u542b\u5340\u57df)"
+    },
+    {
+        "type": "Wait",
+        "val": 11.3,
+        "text": "\u23f3 \u7b49\u5f85 11.3 \u79d2"
+    },
+    {
+        "type": "FindImg",
+        "val": "assets\\autoauto.png|1812,686,95,75",
+        "text": "FindImg (\u5340\u57df: 1812,686,95,75)"
+    },
+    {
+        "type": "Goto",
+        "val": "3",
+        "text": "\u2934\ufe0f \u8df3\u8f49\u81f3: end "
+    },
+    {
+        "type": "Label",
+        "val": "2",
+        "text": "\ud83c\udff7\ufe0f \u6a19\u7c64: esc"
+    },
+    {
+        "type": "Loop",
+        "val": "star|5",
+        "text": "\ud83d\udd01 \u5faa\u74b0\u81f3 'star' (\u9650 5 \u6b21)"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Key",
+        "val": 177,
+        "text": "\u2328\ufe0f \u6309\u4e0b Esc (\u96e2\u958b) (177)"
+    },
+    {
+        "type": "Wait",
+        "val": 1.0,
+        "text": "\u23f3 \u7b49\u5f85 1.0 \u79d2"
+    },
+    {
+        "type": "Goto",
+        "val": "1",
+        "text": "\u2934\ufe0f \u8df3\u8f49\u81f3: star"
+    },
+    {
+        "type": "Label",
+        "val": "3",
+        "text": "\ud83c\udff7\ufe0f \u6a19\u7c64: end"
+    }
+]
